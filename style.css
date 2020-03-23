@@ -85,7 +85,7 @@ body {
 
 .dropAboutMe:hover {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
 }
@@ -93,9 +93,9 @@ body {
 .about-left {
     /* border: solid 2px red; */
     width: 30%;
-    height: 500px;
+    height: 380px;
     display: inline-block;
-    padding: 0;
+    padding: 10px;
     background-color: white;
     text-align: left;
     font-size: 16px;
@@ -105,9 +105,9 @@ body {
 .about-right {
     /* border: solid 2px red; */
     width: 60%;
-    height: 100%;
+    height: 380px;
     display: inline-block;
-    padding: 0;
+    padding: 10px;
     background-color: white;
     text-align: left;
     font-size: 16px;
@@ -297,6 +297,14 @@ body {
 
 .projectButton:hover {
     background-color: rgb(90, 113, 167);
+}
+
+.projectsCardsWrapperPLUS {
+    display: none;
+}
+
+.projectButton:active {
+    display: block;
 }
 
 /* FOOTER  */
