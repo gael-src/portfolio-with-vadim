@@ -19,7 +19,6 @@ body {
     right: 0;
     top: 0;
     flex-direction: row;
-    ;
 }
 
 .navLinks {
@@ -30,8 +29,8 @@ body {
 }
 
 .navLinks:hover {
-    background-color: rgb(143, 157, 190);
-    border: solid 2px rgb(143, 157, 190);
+    background-color: rgb(86, 108, 160);
+    border: solid 2px rgb(86, 108, 160);
 }
 
 .navText {
@@ -40,7 +39,7 @@ body {
 }
 
 .dropContent {
-    background-color: rgb(143, 157, 190);
+    background-color: rgb(86, 108, 160);
     height: auto;
     width: 100%;
     position: absolute;
@@ -74,13 +73,13 @@ body {
 
 /* ABOUT ME */
 .dropAboutMe {
-    background-color: rgb(143, 157, 190);
+    background-color: rgb(86, 108, 160);
     width: 100%;
-    /* height: auto; */
-    min-height: 300px;
+    height: auto;
     display: none;
     color: black;
     text-align: center;
+
 }
 
 .dropAboutMe:hover {
@@ -89,21 +88,22 @@ body {
 }
 
 .about-left {
+    border: solid 2px red;
     width: 30%;
     height: 100%;
     display: inline-block;
-    margin: 0 0 50px 10px;
     padding: 0;
     background-color: white;
-    overflow: scroll;
     text-align: left;
+    font-size: 16px;
+
 }
 
 .about-right {
+    border: solid 2px red;
     width: 60%;
     height: 100%;
     display: inline-block;
-    margin: 0 0 50px 10px;
     padding: 0;
     background-color: white;
 }
@@ -118,21 +118,23 @@ body {
 .descriptionWrapper {
     border: 2px solid red;
     display: flex;
+    font-size: 16px;
 }
 
 .descriptionWrapperSubLeft {
     border: 2px solid red;
     width: 50%;
+    padding: 10px;
 }
 
 .descriptionWrapperSubRight {
     border: 2px solid red;
     width: 50%;
+    padding: 10px;
 }
 
-h3 p {
-    margin: 5px;
-    padding: 5px;
+.nameDescription {
+    font-weight: bold;
 }
 
 /* MAIN TEASER */
@@ -299,7 +301,7 @@ h3 p {
 }
 
 .projectButton:hover {
-    background-color: rgb(240, 70, 70);
+    background-color: rgb(90, 113, 167);
 }
 
 /* FOOTER  */
