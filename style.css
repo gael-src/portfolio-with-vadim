@@ -30,8 +30,8 @@ body {
 }
 
 .navLinks:hover {
-    background-color: rgb(90, 103, 133);
-    border: solid 2px rgb(90, 103, 133);
+    background-color: rgb(143, 157, 190);
+    border: solid 2px rgb(143, 157, 190);
 }
 
 .navText {
@@ -40,27 +40,19 @@ body {
 }
 
 .dropContent {
-    background-color: #303841;
+    background-color: rgb(143, 157, 190);
     height: auto;
     width: 100%;
     position: absolute;
     top: 67px;
     left: 0px;
     display: none;
-    /* border-bottom: 3px solid black;
-    border-right: 3px solid black;
-    border-left: 3px solid black; */
-    /* opacity: 0; */
 }
 
 .navLinks:hover .dropContent {
     display: block;
 }
 
-/* .MenuLink:hover~.dropContent {
-    display: block;
-    /* opacity: 1; */
-/* } */
 .dropLink {
     display: flex;
     align-items: center;
@@ -82,7 +74,7 @@ body {
 
 /* ABOUT ME */
 .dropAboutMe {
-    background-color: #303841;
+    background-color: rgb(143, 157, 190);
     width: 100%;
     /* height: auto; */
     min-height: 300px;
@@ -117,6 +109,7 @@ body {
 }
 
 /* SUB */
+
 .chuckBild {
     width: 100%;
     height: 100px;
@@ -143,6 +136,7 @@ h3 p {
 }
 
 /* MAIN TEASER */
+
 .mainTeaser {
     width: 100%;
     height: 100vh;
@@ -166,9 +160,7 @@ h3 p {
         transform: translate(400px);
     }
 
-    86,
-    101,
-    136 20% {
+    20% {
         transform: translate(0);
     }
 
@@ -216,32 +208,14 @@ h3 p {
     80% {
         transform: translate(300px);
     }
-
-    /* 100% {
-        transform: translate(0px);
-    }
-    80% {
-        transform: translate(100px);
-    }
-    60% {
-        transform: translate(0);
-    }
-    40% {
-        transform: translate(50px);
-    }
-    20% {
-        transform: translate(0);
-    }
-    0% {
-        transform: translate(20px);
-    } */
 }
 
 /* MAIN BODY  */
+
 .mainContainer {
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(90, 103, 133);
+    background-color: rgb(143, 157, 190);
     text-align: center;
 }
 
@@ -299,7 +273,7 @@ h3 p {
 .textWrapper {
     width: 100%;
     height: 20%;
-    background-color: #303841;
+    background-color: #45567D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,7 +293,7 @@ h3 p {
     color: white;
     text-decoration: none;
     width: fit-content;
-    background-color: #303841;
+    background-color: #45567D;
     font-size: 20px;
     padding: 10px 20px;
 }
@@ -332,7 +306,7 @@ h3 p {
 .footerHome {
     width: 100%;
     height: 100vh;
-    background-color: #303841;
+    background-color: #45567D;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -372,7 +346,9 @@ h3 p {
 @media screen and (max-width: 480px) {
 
     /* NAVIGATION */
+
     /* MAIN TEASER */
+
     .mainTeaserH1 {
         font-size: 40px;
     }
@@ -382,7 +358,9 @@ h3 p {
     }
 
     /* MAIN BODY  */
+
     /* FOOTER  */
+
     .mainFooterH2 {
         font-size: 40px;
     }
